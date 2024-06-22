@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--------Library, Boostrap,  Font, Icons, Etc.------->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>HISTORY PROJECT</title>
+        <link rel="stylesheet" href="baghdad.css">
+        <script src="https://kit.fontawesome.com/b818ade590.js" crossorigin="anonymous"></script> <!---Icons--->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!---Google Font--->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!---Google Font--->
+        <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Satisfy&display=swap" rel="stylesheet"> <!---Google Font--->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!---Google Font--->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+                    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> <!---Boostrap--->
+    </head>
+        
+<!--------Header Logo, Home, About, Categories, Books------->
+<body>
+        <section class="header">
+            <nav>
+                <a href=""><img src="./images/independence2-removebg.png"</a>
+                <style>a:link {text-decoration: none;}</style>
+                
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><b><a href="PROJEK_HOME.html">HOME</a></b></li>
+                        <li><b><a href="about.html">ABOUT</a></b></li>
+                        <li><b><a href="categories.html">CATEGORIES</a></b></li>
+                        <li><b><a href="contact.html">CONTACT</a></b></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+<!---Artikel--->
+<section class="post-header">
+
+    <div class="header-content post-container">
+
+        <!---Title--->
+        <h1 class="header-title">Warisan Ilmuan Dinasti Abbasiyah Untuk Dunia</h1>
+        <!---Post Image--->
+        <img src="./images/Baghdad.jpeg" alt="" class="header-img">
+        <!---Source--->
+        <div class="source">
+            <p>Gambar : Walpaperaccess</p>
+        </div>
+        <!---Kalender--->
+        <div class="kalender">
+        <i class="fa-regular fa-calendar-days"> 1-Januari-2023</i><br>
+        <i class="fa-solid fa-pen-to-square">  Luthfi Enggar</i>
+        </div>
+
+    </div>
+
+</section>
+
+<!---Writing--->
+<section class="post-content post-container">
+    <h2 class="sub-heading">Warisan Ilmuan Dinasti Abbasiyah Untuk Dunia</h2>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui laboriosam quo quibusdam doloribus quam, fugiat quidem consequuntur ipsam quaerat accusantium, repudiandae non minima magni adipisci libero inventore? Laboriosam, minima?</p>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui laboriosam quo quibusdam doloribus quam, fugiat quidem consequuntur ipsam quaerat accusantium, repudiandae non minima magni adipisci libero inventore? Laboriosam, minima?</p>
+
+    <h2 class="sub-heading">Warisan Ilmuan Dinasti Abbasiyah Untuk Dunia</h2>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui laboriosam quo quibusdam doloribus quam, fugiat quidem consequuntur ipsam quaerat accusantium, repudiandae non minima magni adipisci libero inventore? Laboriosam, minima?</p>
+    <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui laboriosam quo quibusdam doloribus quam, fugiat quidem consequuntur ipsam quaerat accusantium, repudiandae non minima magni adipisci libero inventore? Laboriosam, minima?</p>
+
+</section>
+
+
+<!--------Footer------->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Terus menggali, mengungkap sejarah yang disembunyikan, serta berdedikasi untuk pembaca dan dunia sejarah.</p>
+    
+    <div class="icons">
+        <a href="https://instagram.com/luthfienggarjuang?igshid=NTdlMDg3MTY="<i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/luthfi-enggar-juang-718654254"<i class="fa fa-linkedin"></i></a>
+    </div>
+    <p><i class="fa-regular fa-copyright"></i>   Independence History. All Right Reserved</p>
+</section>
+
+<!--------JavaScipt for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>     

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--------Titile, Library, Boostrap,  Font, Icons, Etc.------->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>CONTACT PROJECT</title>
+        <link rel="stylesheet" href="history.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+        crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/b818ade590.js" crossorigin="anonymous"></script> <!---Icons (Font Awesome)--->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!---Google Font--->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!---Google Font--->
+        <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Satisfy&display=swap" rel="stylesheet"> <!---Google Font--->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <!---Icons (Last Version Font Awesome)--->
+    </head>
+        
+<!--------Header Logo, Home, About, Categories, Books------->
+
+        <section class="sub-header2">
+            <nav>
+                <a href=""><img src="./image/independence2-removebg.png"</a>
+                <style>a:link {text-decoration: none;}</style>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><b><a href="PROJEK_HOME.html">HOME</a></b></li>
+                        <li><b><a href="about.html">ABOUT</a></b></li>
+                        <li><b><a href="categories.html">CATEGORIES</a></b></li>
+                        <li><b><a href="contact.html">CONTACT</a></b></li> 
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <H1>Contact Us</H1>
+
+            <!---For Source Text--->
+            <div class="text-boxx">
+                <b></a></b>
+            </div>
+
+        </section>
+
+<!--------CONTACT US------->
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.168224947171!2d106.6839598746969!3d-6.241547493746768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fa37fca66295%3A0x5cb118f5062da590!2sKomplek%20Setneg%20RI%2C%20Pondok%20Kacang%20Barat!5e0!3m2!1sid!2sid!4v1671069941384!5m2!1sid!2sid" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Komplek Setneg, Jl. Palem Kuning II</h5>
+                            <p>Pondok  Aren, Tangerang Selatan, Indonesia</p>
+                        </span>
+                    </div>
+
+                    <!--<div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>0822 2222 2222</h5>
+                            <p>Monday To Wednesday, 10am to 6pm</p>
+                        </span>
+                    </div>-->
+
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@independencehistory.com</h5>
+                            <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+
+                <!-----Input Name/Text Box And Fr PHP------>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text"  name="name" placeholder="Enter Your Name" required>
+                        <input type="Email" name="email" placeholder="Enter Email Address" required>
+                        <input type="text"  name="subject" placeholder="Enter Your Subject" required>
+                        <textarea rows="8"  name="message" placeholder="Message" required></textarea>
+                        
+                        <button type="submit" class="hero-btn">Send Massage</button>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+<!--------Footer------->
+        <section class="footer">
+            <h4>About Me</h4>
+            <p>Terus menggali, mengungkap sejarah yang disembunyikan, serta berdedikasi untuk pembaca dan dunia sejarah.</p>
+            
+            <div class="icons">
+                <a href="https://instagram.com/luthfienggarjuang?igshid=NTdlMDg3MTY="<i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/luthfi-enggar-juang-718654254"<i class="fa fa-linkedin"></i></a>
+            </div>
+            <p><i class="fa-regular fa-copyright"></i>   Independence History. All Right Reserved</p>
+        </section>
+
+<!--------JavaScipt for Toggle Menu------->
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu()
+            {
+                navLinks.style.right = "0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+
+    </body>
+</html>
